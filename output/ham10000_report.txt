@@ -1,0 +1,38 @@
+
+HAM10000 Dataset Quality Report
+===============================
+
+1. Dataset Overview
+   - Number of labeled entries in CSV: 10015
+   - Number of .jpg image files in folder: 10015
+   - Number of expected images missing from folder: 0
+   - Number of extra images not listed in CSV: 0
+
+2. Class Distribution
+   - MEL: 1113 images (11.11%)
+   - NV: 6705 images (66.95%)
+   - BCC: 514 images (5.13%)
+   - AKIEC: 327 images (3.27%)
+   - BKL: 1099 images (10.97%)
+   - DF: 115 images (1.15%)
+   - VASC: 142 images (1.42%)
+
+   - Class distribution plot saved to: /Users/fionazhang/PycharmProjects/SkinVisionML/script/output/class_distribution.png
+
+3. Image Properties
+   - Number of distinct image sizes: 1
+   - 450x600: 10015 images
+
+4. Pixel Intensity Statistics (all images, RGB normalized to 0–1)
+   - Mean intensity: 0.6267
+   - Standard deviation: 0.1832
+   - Minimum intensity: 0.0000
+   - Maximum intensity: 1.0000
+   - Pixel intensity histogram saved to: /Users/fionazhang/PycharmProjects/SkinVisionML/script/output/pixel_histogram.png
+
+5. Sample Images
+   - Random sample grid saved to: /Users/fionazhang/PycharmProjects/SkinVisionML/script/output/sample_images.png
+
+6. Potential Issues
+   - Missing images referenced in CSV: 0
+   - Extra images not referenced in CSV: 0

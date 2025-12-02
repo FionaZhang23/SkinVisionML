@@ -1,0 +1,14 @@
+# Datasets
+data/
+
+# Python cache / compiled files
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE / OS files
+.idea/
+.DS_Store
